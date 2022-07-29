@@ -1,3 +1,8 @@
+
+
+// The given array contains jump energy at each point determine  minimum jump to reach end 
+
+
 function leastJumps(arr, n)
 {
  
