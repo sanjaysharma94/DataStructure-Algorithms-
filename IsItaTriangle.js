@@ -1,4 +1,5 @@
 // Given the lengths of 3 sticks, find out if it is possible to form a triangle of a positive area. (Non-Degenerate Triangle).
+// check wheather sum of all pair of two sides are greater than third side
 
 
 function runProgram(input) {
