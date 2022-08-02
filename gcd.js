@@ -1,3 +1,4 @@
+// gcd is also called hcf which is greatest factor of given numbers
 function runProgram(input) {
     input = input.split(/[\r\n]+/);
     var tc = +input[0];
