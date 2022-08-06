@@ -16,4 +16,6 @@ function isPalindrome(str){
     
     if(left>=right) return "Yes";
     }
+  
     
+    console.log(isPalindrome(str))
