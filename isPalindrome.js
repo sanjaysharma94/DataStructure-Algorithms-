@@ -51,4 +51,4 @@ function isPalindrome(str){
     }
   
     
-    console.log(isPalindrome(str))
+    console.log(isPalindrome("12212"))
