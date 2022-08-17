@@ -42,6 +42,7 @@
 
 // 1 2 3
 // 4 5 6
+// ouyput
 
 function threeMaxThreeMin(N,arr){
     let uniqueIntegers = [...new Set(arr)];
