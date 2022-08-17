@@ -13,6 +13,7 @@
 // Constraints
 
 // N<100
+// outpot should be single integer
 
 
 
