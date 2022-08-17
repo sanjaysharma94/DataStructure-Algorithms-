@@ -22,10 +22,10 @@
 // Print Yes or No depending upon the integer.
 
 
-// Sample Input 1 
+// Sample Input  is 1 
 
 // 1221
-// Sample Output 1
+// Sample Output  is 1
 
 // Yes
 
