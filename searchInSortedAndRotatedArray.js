@@ -7,6 +7,9 @@ function runProgram(input) {
     sort(n,e,arr);
  }
  
+
+//binary search in sorted and rotated array
+
  function sort(n,e,arr){
      let count=0
      for(let i=0; i<n; i++){
