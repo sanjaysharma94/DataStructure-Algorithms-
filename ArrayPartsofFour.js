@@ -11,3 +11,7 @@ function runProgram(input) {
         sum = sum + 2*arr[i]
          
     }
+    for(let  i = n; i<2*n; i++ ){
+        sum = sum + arr[i]
+         
+    }
