@@ -24,3 +24,8 @@ function runProgram(input) {
         sum = sum + [i]
          
     }
+
+    console.log(sum);
+
+
+}
