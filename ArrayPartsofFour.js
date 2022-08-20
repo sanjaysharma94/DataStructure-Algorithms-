@@ -42,3 +42,5 @@ if (process.env.USERNAME === "hp") {
     });
     process.stdin.on("end", function () {
       read = read.replace(/\n$/, "");
+    })
+}
