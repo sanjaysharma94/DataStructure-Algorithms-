@@ -1,5 +1,7 @@
 
  //function that  converts roman to integer
+
+ //like ii to 2 and ix to 9
  
  var romanToInt = function(s) {
     
