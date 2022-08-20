@@ -29,3 +29,16 @@ function runProgram(input) {
 
 
 }
+
+if (process.env.USERNAME === "hp") {
+    runProgram(`3
+  1 2 3`);
+  } else {
+    process.stdin.resume();
+    process.stdin.setEncoding("ascii");
+    let read = "";
+    process.stdin.on("data", function (input) {
+      read += input;
+    });
+    process.stdin.on("end", function () {
+      read = read.replace(/\n$/, "");
