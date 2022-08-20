@@ -19,3 +19,8 @@ function runProgram(input) {
         sum = sum + 2[i]
          
     }
+
+    for(let  i = 3*n; i<N; i++ ){
+        sum = sum + [i]
+         
+    }
