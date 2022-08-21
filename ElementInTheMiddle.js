@@ -9,4 +9,13 @@ function runProgram(input) {
             break;
         }
     }
-  
+
+}
+
+if (process.env.USERNAME === "hp") {
+  runProgram(`3
+1 2 3`);
+} else {
+  process.stdin.resume();
+  process.stdin.setEncoding("ascii");
+  let read = "";
