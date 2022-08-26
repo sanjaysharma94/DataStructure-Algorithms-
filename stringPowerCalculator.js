@@ -5,5 +5,7 @@ function strPowerCalc(N, str){
 	    if(str[i]=="a" ||str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u") vowel++;
 	    else consonent++;
 	}
-	 console.log(5*vowel + 7*consonent);
+	 return (5*vowel + 7*consonent);
 }
+
+console.log(strPowerCalc(6, "ankush"))
