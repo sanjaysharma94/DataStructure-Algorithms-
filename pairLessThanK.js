@@ -9,3 +9,26 @@ function runProgram(input) {
         
         pairLessThanK(N,arr,K)
     }
+
+    function pairLessThanK(N,arr,K){
+      
+        var max = -1;
+        
+        
+        for(let i = 0; i<N; i++){
+            
+            var sum ;
+            for(let j = 0; j<N; j++){
+                if(i!==j) sum  = arr[i]+arr[j]
+                
+                if(sum>max && sum<K ){
+                    max = sum ;
+                }
+                
+           }
+        }
+        
+        console.log(max);
+        
+    }
+    
