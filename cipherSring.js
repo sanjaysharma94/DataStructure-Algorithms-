@@ -22,3 +22,26 @@ function runProgram(input) {
       
       cipherstring(N,str)
     }
+
+    function cipherstring(N,str){
+        arr=[];
+        var count=0;
+        var char = str[0];
+        for(let i=0; i<str.length+1; i++){
+            if(str[i]===char){
+                count++;
+            }
+            else{
+                arr.push(char);
+                arr.push(count);
+                
+                char=str[i];
+                count=0;
+                i--;
+                
+            }
+        }
+        console.log(arr.join(""))
+    
+
+}
