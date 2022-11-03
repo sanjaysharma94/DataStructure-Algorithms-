@@ -1,4 +1,4 @@
-let numbers = [ 2, 5, 9, 8, 7, 6, 47, 0, -13 ];
+
 
 function filterPrime(num){
 
@@ -14,6 +14,12 @@ function filterPrime(num){
 }
 
 
-const primeArray = numbers.filter(filterPrime);
+//const primeArray = numbers.filter(filterPrime);
+let numbers = [ 2, 5, 9, 8, 7, 6, 47, 0, -13 ];
+console.log(numbers.filter(filterPrime));
 
-console.log(primeArray);
+
+ 
+
+
+
