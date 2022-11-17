@@ -11,7 +11,7 @@ function BinarySearch(arr,k,start,end){
         
     mid = Math.floor(start + (end-start)/2);
     if(arr[mid]==k){
-        return 1;
+        return mid;
     }
     else if(arr[mid]>k){
         return BinarySearch(arr,k,start,mid-1);
